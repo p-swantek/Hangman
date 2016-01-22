@@ -59,7 +59,7 @@ def playRound(randomWord):
 
     returns: True or False if the user correctly reveals the word
     '''
-    hiddenWord = wordToDashes(randomWord)
+    hiddenWord = wordToDashes(randomWord) #convert the random word to a series of dashes to display to the user
 
     turnsRemaining = 8
     wrongGuesses = 0
